@@ -1,0 +1,6 @@
+#!/bin/sh
+# Keeps README.md's content table/total in sync with the repo before every commit.
+# Enable once per clone with: git config core.hooksPath githooks
+
+node scripts/update-readme.js || exit 1
+git add README.md scripts/topics.json
