@@ -21,4 +21,4 @@ let makeBox = (long, high) =>
     return returnText;
 }
 
-//console.log(makeBox(6, 4));
+console.log(makeBox(7, 5));
