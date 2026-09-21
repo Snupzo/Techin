@@ -1,12 +1,11 @@
 "use strict";
 
 let grades = [];
-let incoming = +prompt("Įveskite kiek balų gavo mokinys:");
-while (incoming != 0)
+do
 {
-    grades.push(incoming)
     incoming = +prompt("Įveskite kiek balų gavo mokinys:");
-}
+    grades.push(incoming);
+}while (incoming != 0);
 let okay = 0;
 let passable = grades.reduce((a, b) =>
 {
