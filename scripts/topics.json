@@ -1,0 +1,57 @@
+[
+  {
+    "num": "01",
+    "folder": "assignment01_variables",
+    "title": "Kintamieji (variables)"
+  },
+  {
+    "num": "02",
+    "folder": "assignment02_math",
+    "title": "Matematiniai veiksmai (Math)"
+  },
+  {
+    "num": "03",
+    "folder": "assignment03_ternary",
+    "title": "Ternary operatorius"
+  },
+  {
+    "num": "04",
+    "folder": "assignment04_if",
+    "title": "`if / else` sąlygos"
+  },
+  {
+    "num": "05",
+    "folder": "assignment05_switch",
+    "title": "`switch` konstrukcija"
+  },
+  {
+    "num": "06",
+    "folder": "assignment06_functions",
+    "title": "Funkcijos (pagrindai)"
+  },
+  {
+    "num": "07",
+    "folder": "assignment07_functions2",
+    "title": "Funkcijos (pratęsimas)"
+  },
+  {
+    "num": "08",
+    "folder": "assignment08_loops1",
+    "title": "Ciklai `for` / `while`"
+  },
+  {
+    "num": "09",
+    "folder": "assignment09_loops2",
+    "title": "Ciklai (pratęsimas, `do...while`)"
+  },
+  {
+    "num": "10",
+    "folder": "assignment10_arrays",
+    "title": "Masyvai (arrays)"
+  },
+  {
+    "num": "—",
+    "folder": "pasikartojimas01",
+    "title": "Pakartojimo užduotys"
+  }
+]
