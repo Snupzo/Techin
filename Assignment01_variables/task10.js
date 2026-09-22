@@ -6,4 +6,6 @@ let daysUntilChristmas = Number(prompt("Kiek dienų liko iki Kalėdų?"));
 let totalCandies = (candiesAdded - candiesEaten) * daysUntilChristmas;
 let gifts = Math.floor(totalCandies / candiesEaten);
 let remainingCandies = totalCandies % candiesEaten;
-alert(`Marius dovanas paruos ${gifts} draugams ir liks ${remainingCandies} saldainių.`);
+alert(
+  `Marius dovanas paruos ${gifts} draugams ir liks ${remainingCandies} saldainių.`,
+);

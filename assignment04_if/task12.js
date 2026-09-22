@@ -6,14 +6,11 @@ productPrice.set("MacBook Pro", 1299);
 productPrice.set("Mac Pro", 2499);
 productPrice.set("Apple Sticker", 1);
 
-let productWanted = prompt("Kokio produkto norite?:")
+let productWanted = prompt("Kokio produkto norite?:");
 let moneyOwned = +prompt("Kiek turite pinigų?");
 
-if (productPrice.get(productWanted) <= moneyOwned)
-{
-    alert("True");
-}
-else
-{
-    alert("False");
+if (productPrice.get(productWanted) <= moneyOwned) {
+  alert("True");
+} else {
+  alert("False");
 }

@@ -29,14 +29,17 @@ console.log(`Every person has to pay ${(total/guests).toFixed(2)}`);
 // Kadangi reiktų if, tada būtų: (pamiršau tam kartui, kad tema if, tai nukeliavau ieškoti idomesnių būdų)
 
 let restaurantBill = +prompt("Enter the total bill:");
-let actualHospitalityLevel = prompt("Tell us about your experience: (good/fair/poor)");
+let actualHospitalityLevel = prompt(
+  "Tell us about your experience: (good/fair/poor)",
+);
 let tips;
-if(actualHospitalityLevel === "good")
-    {tips = restaurantBill*0.2;}
-else if(actualHospitalityLevel === "fair")
-    {tips = restaurantBill*0.15;}
-else if(actualHospitalityLevel === "poor")
-    {tips = restaurantBill*0.1;}
+if (actualHospitalityLevel === "good") {
+  tips = restaurantBill * 0.2;
+} else if (actualHospitalityLevel === "fair") {
+  tips = restaurantBill * 0.15;
+} else if (actualHospitalityLevel === "poor") {
+  tips = restaurantBill * 0.1;
+}
 let guests = +prompt("How many guests?:");
 let total = tips + restaurantBill;
-console.log(`Every person has to pay ${(total/guests).toFixed(2)}`);
+console.log(`Every person has to pay ${(total / guests).toFixed(2)}`);
